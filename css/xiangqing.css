@@ -286,6 +286,10 @@ main {
 	color: #ff6700;
 	float: right;
 }
+.baoxiang-bottom-one-left input{
+	width: 14px;
+	height: 14px;
+}
 .baoxiang-bottom{
 	width: 100%;
 }
@@ -360,8 +364,9 @@ main {
 }
 
 .baoxiang-bottom-one-right-icon{
-	font-size: 16px;
 	margin-right: 5px;
+	width: 16px;
+	height: 16px;
 	
 }
 .baoxiang-bottom-one-right-tiaokuang{

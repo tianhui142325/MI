@@ -69,16 +69,21 @@ main{
 }
 .goods-top-icon-big{
 	float: right;
-	font-size: 16px;
+	font-size: 14px;
 
 }
 .goods-top-icon{
 	float: left;
 	height: 100%;
 	box-sizing: border-box;
-	padding: 0 30px;
-	line-height:20px ;
-
+	line-height:16px ;
+	transition: 0.5s;
+}
+.goods-top-icon input{
+	width: 18px;
+	height: 18px;
+	background: white;
+	margin-right: 10px;
 }
 .goods-bottom{
 	width: 100%;
@@ -102,6 +107,7 @@ main{
 	box-sizing: border-box;
 	padding: 47px 0;
 }
+
 .one{
 	margin-right: 0;
 }
@@ -210,7 +216,12 @@ del{
 	box-sizing: border-box;
 	padding: 40px 20px 0 20px;
 	text-align: center;
+	transition: 0.5s;
 	
+}
+.recommend-bottom-ul-li:hover{
+	transform: translateY(5px);
+	box-shadow: 0 1px 10px rgba(0,0,0,0.2);
 }
 .recommend-bottom-li{
 	margin-left: 0;
@@ -245,8 +256,7 @@ del{
 .content-bottom-samll-dian{
 	width: 296px;
 	height: 30px;
-	margin-top: 10px;
-	margin: 0 auto;
+	margin: 10px auto 0;
 }
 .content-bottom-samll-dian-box{
 	width: 128px;
