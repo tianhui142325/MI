@@ -38,6 +38,9 @@
 	float: left;
 	transition: 1s;
 }
+.long .text>a{
+	color: #b0b0b0;
+}
 .long .text:hover{
 	color: #FFFFFF;
 }
@@ -1600,5 +1603,25 @@ footer{
 	
 }
 .youce-li-three:hover .youce-li-three1{
+	display: block;
+}
+.youce-li-five{
+	width: 20px;
+	height: 20px;
+	position: fixed;
+	bottom:150px;
+	right: 30px;
+	
+}
+.youce-li-five1{
+	width: 20px;
+	height: 20px;
+	position: fixed;
+	bottom: 150px;
+	right: 30px;
+	display: none;
+	
+}
+.youce-li-five:hover .youce-li-five1{
 	display: block;
 }

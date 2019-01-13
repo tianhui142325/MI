@@ -1,0 +1,221 @@
+.mean{
+	width: 1226px;
+	height: 100px;
+	margin: 0px auto;
+}
+.mi{
+	margin-left:30px ;
+}
+main{
+	height: 524px;
+	margin-bottom: 150px;
+	background-image: url(../img/denglu-bg.jpg);
+	background-position: top center;
+	position: relative;
+}
+#denglu{
+	width: 410px;
+	height: 524px;
+	background: white;
+	position: absolute;
+	top: 20px;
+	right:100px;
+}
+.dl_zh{
+	width: 410px;
+	height: 82px;
+	padding: 27px 0 24px;
+	box-sizing: border-box;
+	font-size: 24px;
+	color: #FF6700;
+	text-align: center;
+	cursor: pointer;
+}
+.dl_zh span:nth-child(2){
+	margin: 0 42px;
+	color: #666;
+}
+.dl_zh span:nth-child(3){
+	color: #666;
+}
+.dl_zh span:nth-child(3):hover{
+	color: #FF6700;
+}
+.dl_fs{
+	width: 410px;
+	height: 422px;
+	position: relative;
+}
+.dl_sr{
+	height: 100%;
+}
+.dl_sr input{
+	width: 346px;
+	height: 48px;
+	border: 1px solid #e0e0e0;
+	margin: 14px 32px;
+	outline: none;
+	box-sizing: border-box;
+	padding-left:10px ;
+	color: #333333;
+}
+.dl_sr input:nth-child(2){
+	margin-top: 0;
+}
+.dl_sr .anniu{
+	border: none;
+	background: #ff6700;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	margin-top:10px ;
+	cursor: pointer;
+}
+.dl_sr .dl_duanxin{
+	width: 100%;
+	height: 20px;
+}
+.dl_duanxin_left{
+	font-size: 14px;
+	color: #ff6700;
+	float: left;
+	margin-left: 32px;
+	cursor: pointer;
+}
+.dl_duanxin_right{
+	font-size: 14px;
+	float: right;
+	margin-right: 32px;
+	color: #999;
+}
+.dl_duanxin_right a{
+	text-decoration: none;
+	color: #999;
+}
+.dl_duanxin_right a:hover{
+	color: #FF6700;
+}
+/* 其他登陆方式 */
+.dl_else{
+	width: 100%;
+	height: 72px;
+	margin-top: 130px;
+}
+.dl_else_top{
+	width: 100%;
+	height: 15px;
+	position: relative;
+	box-sizing: border-box;
+	padding: 0 30px;
+}
+.dl_else_top .xian{
+	width: 36%;
+	height: 1px;
+	background: #999999;
+	float: left;
+}
+.dl_else_top .xian:nth-child(2){
+	float: right;
+}
+.dl_else_top .text{
+	width: 100%;
+	font-size: 14px;
+	color: #999999;
+	position: absolute;
+	top: -9px;
+	left: 0;
+	text-align: center;
+}
+.dl_else .logo{
+	height: 38px;
+	width: 240px;
+	margin: 0 auto;
+}
+.logo ._logo{
+	width: 30px;
+	height: 30px;
+	background: #0288d1;
+	float: left;
+	margin: 0 15px;
+	border-radius: 50%;
+	box-sizing: border-box;
+	padding: 6px 6px;
+}
+._logo ._logo_tu{
+	width: 18px;
+	height: 18px;
+}
+.logo_qq{
+	background-image: url(../img/icons_type.png);
+	background-position: -19px 0;
+}
+.logo_wb{
+	background-image: url(../img/icons_type.png);
+	background-position: -38px 0;
+}
+.logo_zb{
+	background-image: url(../img/icons_type.png);
+	background-position: -57px 0;
+}
+.logo_wx{
+	background-image: url(../img/icons_type.png);
+	background-position: -85px 0;
+}
+.logo ._logo:nth-child(2){
+	background: #d32f2f;
+}
+.logo ._logo:nth-child(3){
+	background: #0ae;
+}.logo ._logo:nth-child(4){
+	background: #00d20d;
+}
+footer{
+	width: 100%;
+	height: 80px;
+}
+footer .p{
+	width: 854px;
+	text-align: center;
+	margin: 0 auto;
+	color: #757575;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+footer .p span{
+	margin:0 15px;
+}
+footer .p span:nth-child(1){
+	color: #333333;
+}
+#copyright{
+	width:854px;
+	font-size: 14px;
+	color: #757575;
+	margin: 0 auto;
+	text-align: center;
+}
+/* 扫码登陆开始*/
+.dl_sm{
+	width:410px;
+	height: 100%;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.dl_sm .erweima{
+	width: 180px;
+	height: 180px;
+	margin: 90px 0 5px 115px;
+}
+.dl_sm p{
+	color: #757575;
+	font-size: 14px;
+	text-align: center;
+	line-height: 20px;
+}
+.dl_sm p span{
+	color: #ff6700;
+	padding: 0 5px;
+}

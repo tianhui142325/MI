@@ -1,0 +1,174 @@
+main{
+	width: 854px;
+	background: white;
+	margin: 0 auto 20px;
+	padding-bottom: 15px;
+}
+#logo{
+	width: 49px;
+	height: 48px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+#logo img{
+	width: 100%;
+	height: 100%;
+}
+#content{
+	width: 100%;
+	height: 45px;
+	font-size: 30px;
+	color: #333333;
+	text-align: center;
+	line-height: 45px;
+}
+#zhuce{
+	width: 332px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding: 30px 0;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+.zhuce_input_big{
+	width:332px ;
+	height:42px ;
+	position: relative;
+	margin-top: 30px;
+
+}
+.zhuce_input{
+	width: 332px;
+	height: 42px;
+	background: #ff6700;
+	border: none;
+	outline: none;
+	color: white;
+}
+.zhuce_input-xz{
+	width: 332px;
+	height: 42px;
+	background:rgba(0,0,0,0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.zhuce_input_big:hover{
+	cursor: pointer;
+}
+.zhuce_input_big:hover .zhuce_input-xz{
+	display: block;
+}
+#zhuce h7{
+	color: #333333;
+	padding-bottom: 5px;
+	display: block;
+}
+#zhuce .guojia{
+	width: 332px;
+	height: 40px;
+	border: 1px solid #e8e8e8;
+	box-sizing: border-box;
+}
+#zhuce .guojia-name{
+	width: 290px;
+	height: 38px;
+	font-size: 14px;
+	line-height: 40px;
+	color: #555;
+	float: left;
+	border-right:1px solid #e8e8e8;
+	box-sizing: border-box;
+	padding-left: 14px;
+}
+#zhuce .guojia-gengduo{
+	width: 40px;
+	height: 38px;
+	float: left;
+}
+.guojia-gengduo-arrow{
+	width: 16px;
+	height: 18px;
+	overflow: hidden;
+	box-sizing: border-box;
+	margin: 12px 11px;
+}
+.guojia-p{
+	height: 20px;
+	color: #666666;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+#zhuce .phone{
+	width: 332px;
+	height: 40px;
+	border: 1px solid #e8e8e8;
+	box-sizing: border-box;
+}
+#zhuce .phone-qh{
+	width: 74px;
+	height: 40px;
+	font-size: 14px;
+	line-height: 40px;
+	color: #555;
+	float: left;
+	border-right:1px solid #e8e8e8;
+	box-sizing: border-box;
+	padding-left: 14px;
+}
+#zhuce .phone input{
+	width: 250px;
+	height: 38px;
+	color: #333333;
+	outline: none;
+	border: none;
+	float: left;
+	box-sizing: border-box;
+	padding-left: 10px;
+}
+#tongyi{
+	width: 397px;
+	height: 40px;
+	margin: 50px auto 0;
+	font-size: 14px;
+	color: #9d9d9d;
+	line-height: 40px;
+}
+#tongyi p{
+	float: left;
+}
+#tongyi img{
+	float: left;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+#tongyi span{
+	color: #333;
+	font-weight: bold;
+}
+footer{
+	width: 100%;
+	height: 80px;
+}
+footer .p{
+	width: 854px;
+	text-align: center;
+	margin: 0 auto;
+	color: #757575;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+footer .p span{
+	margin:0 15px;
+}
+footer .p span:nth-child(1){
+	color: #333333;
+}
+#copyright{
+	width:854px;
+	font-size: 14px;
+	color: #757575;
+	margin: 0 auto;
+	text-align: center;
+}
